@@ -7,7 +7,7 @@ int main(void)
     while (i <= 5)
     {
         printf("i = %d\n", i);
-        i+=2;
+        i++;
     }
 
     printf("End of loop\n");
