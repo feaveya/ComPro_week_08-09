@@ -2,14 +2,14 @@
 
 int main(void)
 {
-    int number;
-
-    do
-    {
-        printf("Enter a number from 1 to 10: ");
-        scanf("%d", &number);
-    } while (number < 1 || number > 10);
-
-    printf("You entered: %d\n", number);
+    int i = 5;
+    
+    do {
+        printf("%d ", i);
+        i -= 2;
+    } while (i > 0);
+    
+    printf("End\n");
+    
     return 0;
 }
